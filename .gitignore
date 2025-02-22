@@ -1,0 +1,56 @@
+# Go related files
+/bin/
+/pkg/
+/vendor/
+*.exe
+*.out
+*.test
+*.swp
+
+# IDE & OS-specific files
+.idea/
+*.iml
+.vscode/
+*.DS_Store
+*.log
+
+# Git specific
+.git/
+
+# Compiled Object files
+*.o
+*.a
+*.so
+
+# Go Modules
+/go.sum
+/go.work.sum
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Environment & Secrets (VERY IMPORTANT)
+.env
+.env.local
+.env.production
+.env.development
+
+# Coverage & Debugging
+*.cover
+*.prof
+*.trace
+
+# Logs & Debug
+/logs/
+*.log
+debug/
+
+# Dependency manager (if using vendor)
+vendor/
+
+# Cache files
+__pycache__/
+node_modules/
