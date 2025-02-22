@@ -1,0 +1,12 @@
+### GET request to example server
+PUT http://localhost:8080/events/2
+Content-Type: application/json
+
+{
+  "name": "Updated Test Event",
+  "description": "This is an updated test event",
+  "date_time": "2025-01-02T15:30:00Z"
+}
+
+
+###

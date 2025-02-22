@@ -1,0 +1,12 @@
+### GET request to example server
+POST http://localhost:8080/events
+Content-Type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QxQGV4bXBsZS5jb20iLCJleHAiOjE3NDAyOTIyMDQsInVzZXJJZCI6MH0.OiiHiJ_IEhkkGvg60-zK3Ala51tjk66CZpKNnPwY0wo
+
+{
+  "Name": "Test Event",
+  "Description": "This is a test event",
+  "DateTime": "2025-01-02T15:30:00Z"
+}
+
+###
